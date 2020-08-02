@@ -1,5 +1,5 @@
 ### Simple command to generate project from this archetype
- mvn archetype:generate -DarchetypeGroupId=ru.craftcoderr.maven -DarchetypeArtifactId=liqui-base
+ ```mvn archetype:generate -DarchetypeGroupId=ru.craftcoderr.maven -DarchetypeArtifactId=liqui-base```
  
 ### Project reconfiguration after profile change
  ```mvn resources:resources```

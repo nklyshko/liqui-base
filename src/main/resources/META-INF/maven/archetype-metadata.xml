@@ -5,20 +5,20 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         name="quickstart">
     <fileSets>
-        <fileSet filtered="true" packaged="true">
+        <fileSet filtered="true" packaged="false">
             <directory>src/main/changelog</directory>
             <includes>
                 <include>**/*.sql</include>
                 <include>**/*.xml</include>
             </includes>
         </fileSet>
-        <fileSet filtered="true" packaged="true">
-            <directory>src/main/sql</directory>
+        <fileSet filtered="true" packaged="false">
+            <directory>src/main/profiles</directory>
             <includes>
-                <include>**/*.sql</include>
+                <include>**/*.properties</include>
             </includes>
         </fileSet>
-        <fileSet filtered="true" packaged="true">
+        <fileSet filtered="true" packaged="false">
             <directory>src/main/resources</directory>
             <includes>
                 <include>**/*.xsd</include>
